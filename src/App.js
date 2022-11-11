@@ -1,15 +1,14 @@
 import './App.css';
-
-
-//const name = "Product";
+import PreNavbar from './components/PreNavbar';
+import Navbar from './components/Navbar';
+import {BrowserRouter as Router} from "react-router-dom";
 
 function App() {
-  return (
-    <div>
-      IMG
-      name
-      price
-    </div>
+  return ( //jsx written in following div
+    <Router>  
+      <PreNavbar/>
+      <Navbar/>
+    </Router>
   );
 }
 
