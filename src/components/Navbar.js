@@ -10,7 +10,7 @@ function Navbar() {
     <div className="nav">
         <div className="logo">
             <Link to="/">
-                <img id="logoImage" src ={logo} alt="t"/>
+                <img id="logoImage" src ={logo} alt="no icon"/>
             </Link>
         </div>
 

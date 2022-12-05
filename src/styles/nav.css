@@ -19,6 +19,17 @@
     right: 2vmax;
 }
 
+#logoImage{
+    transition:all 0.2s;
+    
+    transform: translateX(-58px);
+}
+
+#logoImage:hover{
+  
+    transform: translateX(0);
+}
+
 .navlinks{
     color: rgb(59, 59, 59);
     text-decoration: none;
@@ -27,3 +38,24 @@
     font-weight: 500;
     font-size: 1.1vmax;
 }
+
+.navlinks:hover{
+    color: orangered;
+    text-decoration: none;
+}
+
+.searchbox{
+    position: relative;
+   left:5vmax;
+}
+
+.searchbox >input{
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.76);
+    width: 15vmax;
+    font-size: 1.1vmax;
+    outline: none;
+    color:rgb(61, 61, 61);
+    font-weight: 100;
+    
+  }
